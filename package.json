@@ -1,0 +1,13 @@
+{
+  "name": "kuldeep-antigravity-skills",
+  "version": "1.0.0",
+  "description": "Complete repository of 700+ Google Antigravity & AI Agent skills by Kuldeep Sharma",
+  "scripts": {
+    "install-skills": "powershell -ExecutionPolicy Bypass -File install.ps1",
+    "install-skills-global": "powershell -ExecutionPolicy Bypass -File install.ps1 -Global",
+    "install-unix": "bash install.sh",
+    "install-unix-global": "bash install.sh --global"
+  },
+  "author": "Kuldeep Sharma",
+  "license": "MIT"
+}
